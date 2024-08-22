@@ -3,8 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By  # Asegúrate de importar By
 from selenium.webdriver.chrome.service import Service
 
-class HomePageTests(unittest. TestCase):
-    
+class SearchTests(unittest. TestCase):
     
     def setUp(self):
         #service = Service(executable_path=r"C:\Users\joana\Desktop\chrome-win64\chromedriver.exe")
