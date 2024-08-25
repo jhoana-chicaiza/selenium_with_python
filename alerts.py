@@ -21,7 +21,7 @@ class CompareProducts(unittest.TestCase):
         driver.find_element(By.CLASS_NAME,'link-compare').click()
         driver.find_element(By.LINK_TEXT,'Clear All').click()
         
-        alert= driver.switch_to_alert()
+        alert= driver.switch_to.alert
         alert_text= alert.text 
         self.assertEqual('Are you sure you would like to remove all products from your comparison?', alert_text)
         
