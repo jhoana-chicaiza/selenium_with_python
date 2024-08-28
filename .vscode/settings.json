@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./search_",
+        "./search_"
+    ]
+}
